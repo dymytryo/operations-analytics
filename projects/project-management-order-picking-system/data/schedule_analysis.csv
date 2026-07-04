@@ -1,0 +1,12 @@
+activity,duration_weeks,earliest_start,earliest_finish,latest_start,latest_finish,slack_weeks,critical_path
+A,6,0,6,3,9,3,no
+B,9,0,9,0,9,0,yes
+C,4,9,13,9,13,0,yes
+D,12,13,25,17,29,4,no
+E,10,13,23,13,23,0,yes
+F,6,23,29,23,29,0,yes
+G,8,13,21,21,29,8,no
+H,6,29,35,29,35,0,yes
+I,7,29,36,32,39,3,no
+J,4,35,39,35,39,0,yes
+K,4,39,43,39,43,0,yes

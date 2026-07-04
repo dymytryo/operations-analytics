@@ -1,0 +1,17 @@
+vendor,product,quantity_range,unit_cost_usd,notes
+quality_printing,programs,"10000-30000",1.80,local vendor
+quality_printing,programs,"30000-60000",1.70,local vendor
+quality_printing,programs,"60000-250000",1.60,local vendor
+quality_printing,programs,"250000+",1.40,local vendor
+quality_printing,inserts,"10000-30000",0.90,local vendor
+quality_printing,inserts,"30000-60000",0.85,local vendor
+quality_printing,inserts,"60000-250000",0.80,local vendor
+quality_printing,inserts,"250000+",0.70,local vendor
+first_printing,programs,"10000-30000",1.62,10 percent discount plus additional trip cost
+first_printing,programs,"30000-60000",1.53,10 percent discount plus additional trip cost
+first_printing,programs,"60000-250000",1.44,10 percent discount plus additional trip cost
+first_printing,programs,"250000+",1.26,10 percent discount plus additional trip cost
+first_printing,inserts,"10000-30000",0.81,10 percent discount plus additional trip cost
+first_printing,inserts,"30000-60000",0.765,10 percent discount plus additional trip cost
+first_printing,inserts,"60000-250000",0.72,10 percent discount plus additional trip cost
+first_printing,inserts,"250000+",0.63,10 percent discount plus additional trip cost

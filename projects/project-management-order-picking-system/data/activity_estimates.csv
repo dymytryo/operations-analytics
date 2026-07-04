@@ -1,0 +1,12 @@
+activity,description,immediate_predecessors,optimistic_weeks,most_probable_weeks,pessimistic_weeks,expected_time_weeks,variance,critical_path
+A,Determine equipment needs,,4,6,8,6,0.444,no
+B,Obtain vendor proposals,,6,8,16,9,2.778,yes
+C,Select vendor,"A; B",2,4,6,4,0.444,yes
+D,Order system,C,8,10,24,12,7.111,no
+E,Design new warehouse layout,C,7,10,13,10,1.000,yes
+F,Design warehouse,E,4,6,8,6,0.444,yes
+G,Design computer interface,C,4,6,20,8,7.111,no
+H,Interface computer,"D; F; G",4,6,8,6,0.444,yes
+I,Install system,"D; F",4,6,14,7,2.778,no
+J,Train system operators,H,3,4,5,4,0.111,yes
+K,Test system,"I; J",2,4,6,4,0.444,yes

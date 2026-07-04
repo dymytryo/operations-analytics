@@ -1,0 +1,4 @@
+component,selected_vendor,practical_order_pattern,adjusted_cost_usd,reasoning
+programs,first_printing,"three orders of 60000 and one order of 20000",311025.00,orders exactly 200000 programs while using the most practical discount tier
+inserts,first_printing,"five game-specific orders of 40000",158325.00,inserts are unique by game and cannot be bulk-ordered as a single reusable item
+total,first_printing,"combined adjusted program and insert plan",469350.00,total adjusted cost for the practical recommendation

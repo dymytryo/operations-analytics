@@ -1,0 +1,10 @@
+metric,value,notes
+management_target_weeks,40,top management target completion time
+expected_project_duration_weeks,43,calculated from forward pass and critical path
+critical_path,B-C-E-F-H-J-K,zero-slack path through the project network
+critical_path_variance,5.666,sum of critical-path activity variances
+project_standard_deviation_weeks,2.38,square root of critical-path variance
+z_score_for_40_week_target,-1.26,"(40 - 43) / 2.38"
+probability_finish_within_40_weeks,10.38%,normal probability from z score
+expected_duration_needed_for_80pct_confidence_weeks,38,"40 - 0.84 * 2.38"
+recommended_action,crash critical-path activities,shorten zero-slack activities to improve schedule confidence

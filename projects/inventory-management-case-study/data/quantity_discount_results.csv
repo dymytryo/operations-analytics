@@ -1,0 +1,17 @@
+product,vendor,quantity_range,total_cost_usd,model_result
+programs,quality_printing,"10000-30000",366500.00,higher than First Printing
+programs,quality_printing,"30000-60000",353416.67,higher than First Printing
+programs,quality_printing,"60000-250000",344333.33,higher than First Printing
+programs,quality_printing,"250000+",367580.00,higher than First Printing
+programs,first_printing,"10000-30000",333859.01,lower than Quality Printing
+programs,first_printing,"30000-60000",319475.00,lower than Quality Printing
+programs,first_printing,"60000-250000",310600.00,lowest modeled program cost
+programs,first_printing,"250000+",330990.00,lower than Quality Printing but not lowest
+inserts,quality_printing,"10000-30000",181341.64,higher than First Printing
+inserts,quality_printing,"30000-60000",171303.84,higher than First Printing
+inserts,quality_printing,"60000-250000",161533.33,higher than First Printing
+inserts,quality_printing,"250000+",144475.00,higher than First Printing
+inserts,first_printing,"10000-30000",164204.54,lower than Quality Printing
+inserts,first_printing,"30000-60000",155142.43,lower than Quality Printing
+inserts,first_printing,"60000-250000",146080.00,lower than Quality Printing
+inserts,first_printing,"250000+",130237.50,lowest modeled insert cost but operationally infeasible for game-specific inserts

@@ -1,0 +1,7 @@
+flowchart LR
+    A[Activity list and predecessors] --> B[PERT expected durations]
+    B --> C[Forward pass]
+    C --> D[Backward pass]
+    D --> E[Critical path and slack]
+    E --> F[Variance and completion probability]
+    F --> G[Crash critical-path activities]
