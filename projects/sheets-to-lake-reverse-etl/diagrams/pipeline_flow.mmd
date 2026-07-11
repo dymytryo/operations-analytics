@@ -1,8 +1,0 @@
-flowchart LR
-    OPS[Ops team edits sheet] --> R[Read sheet via Sheets API]
-    R --> E[Enrich: targeted Athena queries<br/>keyed on missing fields]
-    E --> W[Write enriched columns<br/>back to the sheet]
-    E --> P[Append curated records to<br/>Parquet table in the lake]
-    P --> Q[QuickSight dashboard<br/>+ KPI alerts to management]
-    CW[EventBridge cron] -->|daily| SM[SageMaker notebook job]
-    SM --> R
