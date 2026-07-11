@@ -1,6 +1,6 @@
 # Operations Analytics Portfolio
 
-Focused operations and supply-chain analytics projects that demonstrate cost modeling, vendor comparison, inventory decisions, and practical process improvement.
+Focused operations and supply-chain analytics projects that demonstrate cost modeling, vendor comparison, inventory decisions, practical process improvement, and the data engineering that keeps operations teams out of manual work.
 
 This repository is intentionally organized as a portfolio collection, not as an installable package. Each project should stand alone with a concise README, cleaned shareable artifacts, and enough context to explain the operational decision logic.
 
@@ -10,6 +10,7 @@ This repository is intentionally organized as a portfolio collection, not as an 
 | --- | --- | --- |
 | [Inventory Management Case Study](projects/inventory-management-case-study) | Quantity discount model, EOQ reasoning, vendor comparison, cost optimization | Inventory planning, procurement analytics, operational cost reduction |
 | [Project Management Order-Picking System](projects/project-management-order-picking-system) | PERT, CPM, critical path, schedule risk | Project planning, timeline optimization, risk-based delivery recommendations |
+| [Google Sheets ⇄ Data Lake: Operational Reverse ETL](projects/sheets-to-lake-reverse-etl) | Sheets API OAuth, batched Athena enrichment, Parquet CTAS, idempotent appends, scheduled SageMaker execution | Operational data engineering: reverse ETL, pipeline hardening, self-serve reporting for ops teams |
 
 ## Repository Pattern
 
